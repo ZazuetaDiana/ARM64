@@ -6,22 +6,17 @@
 
 -	Se accede a ella y encontramos el Dockerfile que antes clonamos y dimos un build.
 
-
 -	Escribimos Docker images y vemos que ya tenemos instalado el ARM64.
 
 -	Accedemos al root con Docker run.
 
-
--	Instalamos gef.
-
-GEF: es un conjunto de comandos para x86 / 64, ARM, MIPS, PowerPC y SPARC.
+-	Instalamos gef: es un conjunto de comandos para x86 / 64, ARM, MIPS, PowerPC y SPARC.
 
 -	Ayuda:a los desarrolladores de exploits e ingenieros inversos al usar GDB de la vieja escuela.
 
 -	 Proporciona funciones adicionales a GDB utilizando la API de Python para ayudar durante el proceso de análisis dinámico y desarrollo de exploits.
 
 -	GEF elimina una gran parte de la oscuridad regular de GDB, evitando la repetición de comandos tradicionales o sacando la información relevante del tiempo de ejecución de depuración.
-
 
 
 ![](https://github.com/ZazuetaDiana/ARM64/blob/main/image1.png)
@@ -58,6 +53,7 @@ GEF: es un conjunto de comandos para x86 / 64, ARM, MIPS, PowerPC y SPARC.
 
 
 ![](https://github.com/ZazuetaDiana/ARM64/blob/main/image4.png)
+
 
 -	Nos muestra el gef con colores.
 - Ejecutamos en gdb el holamundo
